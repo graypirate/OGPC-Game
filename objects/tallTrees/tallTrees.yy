@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite5",
-    "path": "sprites/Sprite5/Sprite5.yy",
+    "name": "tallTree",
+    "path": "sprites/tallTree/tallTree.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWall2",
+  "name": "tallTrees",
   "tags": [],
   "resourceType": "GMObject",
 }

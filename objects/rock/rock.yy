@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "stoneWallSprite",
-    "path": "sprites/stoneWallSprite/stoneWallSprite.yy",
+    "name": "rocks",
+    "path": "sprites/rocks/rocks.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "rock",
   "tags": [],
   "resourceType": "GMObject",
 }
