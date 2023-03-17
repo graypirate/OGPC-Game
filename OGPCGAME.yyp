@@ -12,6 +12,7 @@
     {"id":{"name":"rockBig","path":"objects/rockBig/rockBig.yy",},"order":8,},
     {"id":{"name":"stoneWallSprite","path":"sprites/stoneWallSprite/stoneWallSprite.yy",},"order":5,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":8,},
     {"id":{"name":"tallTree","path":"sprites/tallTree/tallTree.yy",},"order":3,},
     {"id":{"name":"player","path":"sprites/player/player.yy",},"order":2,},
     {"id":{"name":"bush","path":"objects/bush/bush.yy",},"order":6,},
