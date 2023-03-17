@@ -10,6 +10,7 @@ down = keyboard_check(vk_down);
 
 
 
+
 xDirection = right - left;
 xVector = xSpeed * xDirection;
 //check if there is wall 4 pixles away from player
@@ -45,6 +46,10 @@ if (place_meeting(x, y + yVector, oWall))
   //otherwise move as normal
 
 y = y + yVector; 
+
+// when(xSpeed > 0 || ySpeed > 0){
+	// 
+// }
 
 //preventing double speed from diagonal down right
 if (right && down){
