@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "stoneWallSprite",
-    "path": "sprites/stoneWallSprite/stoneWallSprite.yy",
+    "name": "roundtree",
+    "path": "sprites/roundtree/roundtree.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oWall",
+    "path": "objects/oWall/oWall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "roundTree",
   "tags": [],
   "resourceType": "GMObject",
 }
