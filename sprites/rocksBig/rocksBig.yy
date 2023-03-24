@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "OGPCGAME",
-    "path": "OGPCGAME.yyp",
+    "name": "working animation",
+    "path": "working animation.yyp",
   },
   "resourceVersion": "1.0",
   "name": "rocksBig",

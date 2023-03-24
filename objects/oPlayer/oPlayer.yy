@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "playerRight",
-    "path": "sprites/playerRight/playerRight.yy",
+    "name": "PlayerMoveRight",
+    "path": "sprites/PlayerMoveRight/PlayerMoveRight.yy",
   },
   "solid": false,
   "visible": true,
