@@ -13,3 +13,7 @@ ySpeed = 4;
 yDirection = 0;
 
 yVector = ySpeed * yDirection;
+
+//animation
+localFrame = 0;
+

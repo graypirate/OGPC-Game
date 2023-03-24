@@ -6,13 +6,17 @@ right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
 up = keyboard_check(vk_up);
 down = keyboard_check(vk_down);
-
+cDirection = 0
 
 
 
 
 xDirection = right - left;
 xVector = xSpeed * xDirection;
+
+if(keyboard_check(vk_left)){
+	draw_sprite_ext(PlayerMoveRight, 0, x, y, -1, 1, 1, 1, 1);
+}
 //check if there is wall 4 pixles away from player
 if (place_meeting(x + xVector, y, oWall))
   {
@@ -82,5 +86,24 @@ else if (left && up){
 else{
 	xSpeed = 4;
 	ySpeed = 4;
+}
+
+
+//animation code
+var _oldSprite = sprite_index;
+if (right + left + up + down != 0)
+{
+		sprite_index = PlayerMoveRight;
+} else sprite_index =PlayerIdle;
+if (_oldSprite != sprite_index) localFrame = 0;
+
+// Mirror for animation
+if (left > 0)
+{
+	image_xscale = -0.4
+} 
+if (right > 0)
+{
+	image_xscale = 0.4
 }
 
