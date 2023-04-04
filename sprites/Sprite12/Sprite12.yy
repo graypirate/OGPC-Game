@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 240,
-  "bbox_right": 799,
-  "bbox_top": 360,
-  "bbox_bottom": 639,
+  "bbox_left": 0,
+  "bbox_right": 0,
+  "bbox_top": 0,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1024,
-  "height": 1024,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"564eeaa5-3696-4a9e-b16b-3520979bbbaf","path":"sprites/rocksBig/rocksBig.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"564eeaa5-3696-4a9e-b16b-3520979bbbaf","path":"sprites/rocksBig/rocksBig.yy",},"LayerId":{"name":"581e1008-7286-45df-89ea-c9f04ab130b6","path":"sprites/rocksBig/rocksBig.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"rocksBig","path":"sprites/rocksBig/rocksBig.yy",},"resourceVersion":"1.0","name":"564eeaa5-3696-4a9e-b16b-3520979bbbaf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a5a7bb68-5f0f-4f99-bec4-b715dee94ae7","path":"sprites/Sprite12/Sprite12.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a5a7bb68-5f0f-4f99-bec4-b715dee94ae7","path":"sprites/Sprite12/Sprite12.yy",},"LayerId":{"name":"d1390402-4196-450a-b2e0-cac29ffc4e3a","path":"sprites/Sprite12/Sprite12.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},"resourceVersion":"1.0","name":"a5a7bb68-5f0f-4f99-bec4-b715dee94ae7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"rocksBig","path":"sprites/rocksBig/rocksBig.yy",},
+    "spriteId": {"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d2d45bbc-aeb8-4b96-9323-121000c7e82b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"564eeaa5-3696-4a9e-b16b-3520979bbbaf","path":"sprites/rocksBig/rocksBig.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f5c2c6eb-e22a-4aaf-ab15-8dfe5a231954","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5a7bb68-5f0f-4f99-bec4-b715dee94ae7","path":"sprites/Sprite12/Sprite12.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"rocksBig","path":"sprites/rocksBig/rocksBig.yy",},
+    "parent": {"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},
     "resourceVersion": "1.4",
-    "name": "rocksBig",
+    "name": "Sprite12",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"581e1008-7286-45df-89ea-c9f04ab130b6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d1390402-4196-450a-b2e0-cac29ffc4e3a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "working animation.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "rocksBig",
+  "name": "Sprite12",
   "tags": [],
   "resourceType": "GMSprite",
 }
