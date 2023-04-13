@@ -15,8 +15,10 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":8,},
     {"id":{"name":"tallTree","path":"sprites/tallTree/tallTree.yy",},"order":2,},
     {"id":{"name":"PlayerMoveRight","path":"sprites/PlayerMoveRight/PlayerMoveRight.yy",},"order":1,},
+    {"id":{"name":"bearSprite","path":"sprites/bearSprite/bearSprite.yy",},"order":10,},
     {"id":{"name":"bush","path":"objects/bush/bush.yy",},"order":4,},
     {"id":{"name":"rocks","path":"sprites/rocks/rocks.yy",},"order":6,},
+    {"id":{"name":"bearEnemy","path":"objects/bearEnemy/bearEnemy.yy",},"order":7,},
     {"id":{"name":"r00","path":"rooms/r00/r00.yy",},"order":0,},
   ],
   "Options": [
