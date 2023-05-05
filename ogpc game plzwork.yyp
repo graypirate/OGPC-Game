@@ -7,6 +7,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":2,},
     {"id":{"name":"stones","path":"objects/stones/stones.yy",},"order":6,},
     {"id":{"name":"roundTree","path":"objects/roundTree/roundTree.yy",},"order":3,},
+    {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},"order":11,},
     {"id":{"name":"basicenemy","path":"objects/basicenemy/basicenemy.yy",},"order":5,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
     {"id":{"name":"roundtree","path":"sprites/roundtree/roundtree.yy",},"order":3,},
