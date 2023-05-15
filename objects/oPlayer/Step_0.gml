@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-playerHealth = 100;
-
 diagonal = false;
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
 up = keyboard_check(vk_up);
 down = keyboard_check(vk_down);
+global.attack = keyboard_check(vk_space);
+
 
 xDirection = right - left;
 xVector = xSpeed * xDirection;
@@ -105,6 +105,26 @@ if (right > 0)
 	image_xscale = 0.4
 }
 
+if (timer > 0)
+{
+	
+	global.enemyAttack = false;
+	timer -= 1/room_speed //decrease in seconds
+}
+
+if(global.enemyAttack == true){
+	timer = timermax;
+	if(global.enemyAttack == true){
+		playerHealth -= 25;
+		direction=point_direction(x,y,bearEnemy.x,bearEnemy.y)+180;
+		speed = 50;
+		show_debug_message(playerHealth);
+	}
+	timer = timermax;
+}
+else{
+	speed = 0;
+}
 if(playerHealth < 1){
 	game_end();
 }
